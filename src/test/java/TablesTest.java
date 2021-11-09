@@ -14,7 +14,7 @@ public class TablesTest {
     @Test
     public void testGetSmallMultiplicationTable() {
         String expected =
-                "  1 |  2 |  3 |  4 |  5 |\n" +
+                        "  1 |  2 |  3 |  4 |  5 |\n" +
                         "  2 |  4 |  6 |  8 | 10 |\n" +
                         "  3 |  6 |  9 | 12 | 15 |\n" +
                         "  4 |  8 | 12 | 16 | 20 |\n" +
