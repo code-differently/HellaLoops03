@@ -1,13 +1,61 @@
 public class Tables {
     public String getSmallMultiplicationTable() {
-        return null;
-    }
+        int tableSize = 5;
+        String result = "";
+
+
+        for (int i = 1; i <= tableSize; i++) {
+
+            result += "  \n ";
+
+            for (int j = 1; j <= tableSize; j++) {
+
+                result +=i*j +" |  " ;
+            }
+
+            }
+
+
+    return result;
+}
 
     public String getLargeMultiplicationTable() {
-        return null;
-    }
+
+            int tableSize = 10;
+            String result = "";
+
+
+            for (int i = 1; i <= tableSize; i++) {
+
+                result += "  \n ";
+
+                for (int j = 1; j <= tableSize; j++) {
+
+                    result += i * j + " |  ";
+                }
+
+            }
+
+
+            return result;
+        }
 
     public String getMultiplicationTable(int tableSize) {
-        return null;
+        String result = " ";
+
+        for (int i = 1; i <= tableSize; i++) {
+
+            result += "  \n  ";
+
+            for (int j = 1; j <= tableSize; j++) {
+
+                result += i * j + "  |   ";
+            }
+
+        }
+
+
+        return result;
+
     }
 }
