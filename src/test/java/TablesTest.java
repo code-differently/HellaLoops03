@@ -14,7 +14,7 @@ public class TablesTest {
     @Test
     public void testGetSmallMultiplicationTable() {
         String expected =
-                "  1 |  2 |  3 |  4 |  5 |\n" +
+                        "  1 |  2 |  3 |  4 |  5 |\n" +
                         "  2 |  4 |  6 |  8 | 10 |\n" +
                         "  3 |  6 |  9 | 12 | 15 |\n" +
                         "  4 |  8 | 12 | 16 | 20 |\n" +
@@ -27,7 +27,7 @@ public class TablesTest {
     @Test
     public void testGetLargeMultiplicationTable() {
         String expected =
-                "  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |\n" +
+                        "  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |\n" +
                         "  2 |  4 |  6 |  8 | 10 | 12 | 14 | 16 | 18 | 20 |\n" +
                         "  3 |  6 |  9 | 12 | 15 | 18 | 21 | 24 | 27 | 30 |\n" +
                         "  4 |  8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 |\n" +
