@@ -1,29 +1,50 @@
 public class Tables {
     public String getSmallMultiplicationTable() {
         StringBuilder smallMultiplication = new StringBuilder();
-        for (int colIndex = 1; colIndex < 6; colIndex++) {
+        for(int colIndex =1; colIndex < 6 ; colIndex++ ){
             String row = "";
-            for (int rowIndex = 1; rowIndex < 6; rowIndex++) {
+            for (int rowIndex =1; rowIndex < 6; rowIndex++ ){
                 int value = rowIndex * colIndex;
-                row += String.format("%3d |", value);
+                row += String.format(" %3d |", value);
             }
             row += "\n";
-            StringBuilder.append(row);
+            smallMultiplication.append(row);
         }
-        return StringBuilder.toString();
+        return smallMultiplication.toString();
     }
-
-
 
 
 
 
 
     public String getLargeMultiplicationTable() {
-        return null;
+        StringBuilder largeMultiplication = new StringBuilder();
+        for(int colIndex =1; colIndex < 11 ; colIndex++ ){
+            String row = "";
+            for (int rowIndex =1; rowIndex < 11 ; rowIndex++ ){
+                int value = rowIndex * colIndex;
+                row += String.format(" %3d |", value);
+            }
+            row += "\n";
+            largeMultiplication.append(row);
+        }
+        return largeMultiplication.toString();
     }
 
+
     public String getMultiplicationTable(int tableSize) {
-        return null;
+        StringBuilder largeMultiplication = new StringBuilder();
+        for(int colIndex =1; colIndex < 21 ; colIndex++ ){
+            String row = "";
+            for (int rowIndex =1; rowIndex < 21 ; rowIndex++ ){
+                int value = rowIndex * colIndex;
+                row += String.format(" %3d |", value);
+            }
+            row += "\n";
+            largeMultiplication.append(row);
+        }
+        return largeMultiplication.toString();
     }
+
 }
+
